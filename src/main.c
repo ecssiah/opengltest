@@ -1,6 +1,15 @@
+#include "jsk.h"
+
+#include <stdio.h>
+
+#include "app.h"
+
 int main()
 {
-  printf("Hello World\n");
+  App* app = app_create();
+  app_init(app);
+
+  app_destroy(app);
   
   return 0;
 }
