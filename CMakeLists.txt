@@ -21,8 +21,8 @@ add_executable(
 target_include_directories(
     voxeltest 
     PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/external/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/external/jsk
+    ${CMAKE_CURRENT_SOURCE_DIR}/external/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/external/stb/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
@@ -45,7 +45,6 @@ target_sources(
     voxeltest 
     PRIVATE
     external/glad/src/glad.c
-    src/app.c
 )
 
 target_compile_definitions(

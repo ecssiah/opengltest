@@ -19,4 +19,7 @@ typedef   signed int i32;
 typedef unsigned long long u64;
 typedef   signed long long i64;
 
+typedef  float f32;
+typedef double f64;
+
 #endif
